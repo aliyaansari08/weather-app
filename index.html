@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+        <h2>Weather App</h2>
+        <i class="fa-solid fa-location-dot"></i>
+    </div>
+    <div class="search-bar">
+      <i class="fa-brands fa-sistrix"></i>
+      <input type ="text" id="city-input" placeholder="search your city">
+    </div>
+    <div class="weather-bar">
+        <p id="date-city">SUNDAY . DELHI, INDIA </p>
+    <div class="weather-info">
+        <h1 id="temp">29°C</h1>
+        <h2 id="condition">Sunny</h2>
+        <p id="high-low">H:31° L:22°</p>
+    </div>
+    <div class="weather-image">
+        <img id="weather-img" src="sunny.jpeg" alt="sunny">
+    </div>
+    </div>
+    <div class="details-container">
+        <div class="details-header">
+        <h3>Weather Details</h3>
+        <p>Today</p>
+        </div>
+    <div class="card-rows">
+    <div class="detail-card">
+      <i class="fa-solid fa-droplet"></i>
+      <p>Humidity</p>
+      <h2 id="humidity">65%</h2>
+    </div>
+    <div class="detail-card">
+        <i class="fa-solid fa-wind"></i>
+        <p>Wind Speed</p>
+        <h2 id="wind">12Km/h</h2>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
